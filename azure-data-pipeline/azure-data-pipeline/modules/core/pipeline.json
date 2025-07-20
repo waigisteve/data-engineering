@@ -1,0 +1,14 @@
+[
+  {
+    "name": "CopyFromSQLToDBX",
+    "type": "Copy",
+    "inputs": [
+      { "referenceName": "SqlTableDataset", "type": "DatasetReference" }
+    ],
+    "outputs": [],
+    "typeProperties": {
+      "source": { "type": "SqlSource" },
+      "sink": { "type": "ParquetSink" }
+    }
+  }
+]

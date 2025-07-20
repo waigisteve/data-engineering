@@ -1,0 +1,25 @@
+# Project Structure for Reusable Staging/Prod Environments
+
+```bash
+azure-data-pipeline/
+├── modules/
+│   └── core/
+│       ├── main.tf
+│       ├── outputs.tf
+│       ├── variables.tf
+│       ├── pipeline.json
+├── envs/
+│   ├── staging/
+│   │   ├── main.tf
+│   │   ├── terraform.tfvars
+│   ├── production/
+│   │   ├── main.tf
+│   │   ├── terraform.tfvars
+├── backend.tf (optional)
+├── providers.tf
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+```
+
+---
