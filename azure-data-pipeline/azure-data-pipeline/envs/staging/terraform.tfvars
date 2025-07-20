@@ -1,0 +1,5 @@
+sql_admin_password   = "YourStagingPassword123!"
+github_account_name  = "waigisteve"
+github_repo_name     = "azure-data-pipeline"
+github_branch        = "main"
+databricks_token     = "dapiXXXXXXXXXXXXXXXX"
