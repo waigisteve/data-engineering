@@ -1,0 +1,20 @@
+aws-data-pipeline/
+├── modules/
+│   └── core/
+│       ├── main.tf
+│       ├── variables.tf
+│       ├── outputs.tf
+│       ├── glue-job.py
+│       ├── step_function_definition.asl.json
+│       ├── databricks_notebook.dbc
+├── envs/
+│   ├── staging/
+│   │   ├── main.tf
+│   │   └── terraform.tfvars
+│   └── production/
+│       ├── main.tf
+│       └── terraform.tfvars
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+├── README.md
